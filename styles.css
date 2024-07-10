@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #000000 0%, #8e8888 100%);
+}
+h1{
+    color: #fff;
+}
+header,
+main,
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.buttonContainer {
+    margin: 10Px;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #181818;
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+
+#turnOn:hover {
+    box-shadow:
+        0 0 2px #4CAF50,
+        0 0 5px #4CAF50,
+        0 0 8px #4CAF50,
+        0 0 10px #4CAF50,
+        0 0 15px #4CAF50, 
+        0 0 20px #4CAF50, 
+        0 0 25px #4CAF50, 
+        0 0 40px #4CAF50;
+}
+
+#turnOff:hover {
+    box-shadow:
+        0 0 2px #FF5733,
+        0 0 5px #FF5733,
+        0 0 8px #FF5733,
+        0 0 10px #FF5733,
+        0 0 15px #FF5733,
+        0 0 20px #FF5733,
+        0 0 25px #FF5733,
+        0 0 40px #FF5733;
+}
